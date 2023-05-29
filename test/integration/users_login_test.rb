@@ -36,7 +36,7 @@ end
 
 class ValidLoginTest < ValidLogin
 
-  test "valid login" do
+  test "valid login" do 
     assert is_logged_in?
     assert_redirected_to @user
   end
